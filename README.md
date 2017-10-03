@@ -55,7 +55,7 @@ Supplement 0, which enumerates 8,284 glyphs, specifically CIDs 0 through 8283, w
 
 ### Special Notes
 
-In order to maintain stability and ensure predictability, CIDs 1125 through 7477 should be design such that they are JIS90 compatible.
+In order to maintain stability and ensure predictability, CIDs 1125 through 7477 should be designed such that they are JIS90 compatible.
 
 We further recommend that the glyphs for CIDs 243 and 245—along with their pre-rotated counterparts in Supplement 3, specifically CIDs 8962 and 8964—be designed in such a way that their glyphs are centered within their half-width (500-unit) set widths, thus making them look better when used between digits.
 
@@ -256,7 +256,7 @@ Adobe-Japan1-6 includes 14,664 glyphs that are classified as kanji (aka, ideogra
 5 | 16779–20316
 6 | 21071–23057
 
-The *aj16-kanji.txt* database-like file provides detailed information for each of these 14,664 kanji.
+The *aj16-kanji.txt* datafile provides detailed information for each of these 14,664 kanji.
 
 ### Ruby Glyphs
 
@@ -323,13 +323,13 @@ In order for fonts based on the Adobe-Japan1-6 character collection to be useful
 
 For font developers who wish to build JIS2004-savvy OpenType fonts, specifically those whose default glyphs match the prototypical glyphs set forth in the JIS X 0213:2004 standard, the strong JIS90-compliance recommendation still applies, because the JIS2004-savviness is achieved at the character code, not CID, level, through the use of JIS2004-savvy CMap resources that map the same Unicode code points to CIDs whose glyphs match the JIS X 0213:2004 prototypical glyphs. JIS2004-savvy font development is covered later in this document.
 
-The JIS standards, specifically JIS X 0208:1997, JIS X 0212-1990, and JIS X 0213:2004, and earlier versions thereof, along with JIS-related material found in the appendixes of the book entitled [*CJKV Information Processing*, Second Edition](http://shop.oreilly.com/product/9780596514471.do) (O’Reilly, 2009), serve as the ideal glyph references for Adobe-Japan1-6, at least for the glyphs that correspond to these standards. Some glyphs do not correspond to characters found in any JIS standard, in which case Unicode and ISO 10646 serve as the ideal glyph reference, and in some cases the only glyph reference beyond this document. The database-like [*aj16-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj16-kanji.txt) file, described in the section that follows, also provides references to other standards that can also be consulted in terms of glyph references.
+The JIS standards, specifically JIS X 0208:1997, JIS X 0212-1990, and JIS X 0213:2004, and earlier versions thereof, along with JIS-related material found in the appendixes of the book entitled [*CJKV Information Processing*, Second Edition](http://shop.oreilly.com/product/9780596514471.do) (O’Reilly, 2009), serve as the ideal glyph references for Adobe-Japan1-6, at least for the glyphs that correspond to these standards. Some glyphs do not correspond to characters found in any JIS standard, in which case Unicode and ISO 10646 serve as the ideal glyph reference, and in some cases the only glyph reference beyond this document. The [*aj16-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj16-kanji.txt) datafile, described in the section that follows, also provides references to other standards that can also be consulted in terms of glyph references.
 
 ## CMap Resources
 
-The CMap resources associated with the Adobe-Japan1-6 character collection, along with the database-like *cid2code.txt* file that provides additional details for font developers, are available as part of the [*CMap Resources*](https://github.com/adobe-type-tools/cmap-resources/) open source project.
+The CMap resources associated with the Adobe-Japan1-6 character collection, along with the [*cid2code.txt*](https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-Japan1-6/cid2code.txt) datafile that provides additional details for font developers, are available as part of the [*CMap Resources*](https://github.com/adobe-type-tools/cmap-resources/) open source project.
 
-The database-like [*aj16-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj16-kanji.txt) file provides additional information for all 14,664 kanji in Adobe-Japan1-6.
+The [*aj16-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj16-kanji.txt) datafile provides additional information for all 14,664 kanji in Adobe-Japan1-6.
 
 More complete descriptions of the individual Adobe-Japan1-6 CMap resources can be found in [Adobe Technical Note #5094](https://www.adobe.com/devnet/font.html), entitled *Adobe CJKV Character Collections and CMap Files for CID-Keyed Fonts*.
 
@@ -337,7 +337,7 @@ In general, the CMap resources that are based on legacy encodings, such as Shift
 
 ## Unicode Variation Sequences
 
-The Ideographic Variation Sequences (IVSes) that are specified in the [*Adobe-Japan1_sequences.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1_sequences.txt) file are registered by The Unicode Consortium in the [IVD](http://www.unicode.org/ivd/) (*Ideographic Variation Database*). This file also includes a small number of Standardized Variation Sequences (SVSes), and all but one of them correspond to CJK Compatibility Ideographs.
+The Ideographic Variation Sequences (IVSes) that are specified in the [*Adobe-Japan1_sequences.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1_sequences.txt) datafile are registered by The Unicode Consortium in the [IVD](http://www.unicode.org/ivd/) (*Ideographic Variation Database*) per [UTS #37](http://www.unicode.org/reports/tr37/) (*Unicode Ideographic Variation Database*). This datafile also includes a small number of [Standardized Variation Sequences](http://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt) (SVSes), and all but one of them correspond to CJK Compatibility Ideographs.
 
 ## OpenType Font Development
 
