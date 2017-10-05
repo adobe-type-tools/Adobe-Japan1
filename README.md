@@ -14,7 +14,7 @@ Adobe shall not be liable to any party for any loss of revenue or profit or for 
 
 Adobe holds no patents on the subject matter of this specification.
 
-Last updated 2017-10-03
+Last updated 2017-10-05
 
 ---
 ## Introduction
@@ -383,33 +383,46 @@ This naming convention also allows JIS2004-savvy OpenType fonts to coexist with 
 Representative glyphs for CIDs 0 through 23057 are provided in the [*Adobe-Japan1-6.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1-6.pdf) file that is included in this repository, with 500 glyphs shown per page. And, for reader convenience, the beginning of each Supplement is clearly marked. The typeface used to exemplify each glyph is *Kozuka Mincho Pr6N R* (aka, KozMinPr6N-Regular or 小塚明朝 Pr6N R), designed by Adobe, and an Adobe Original typeface available for license. The specific font instance is Version 6.004, as reflected in its /CIDFontVersion dictionary entry.
 
 ## Changes Since Earlier Versions
-The following sections detail the history of this document, which was originally referred to as Adobe Technical Note #5078. Note that references to specific sections no longer correspond to the sections found in the current version of this specification.
-### Since the 1993-06-11—Supplement 0—Version
-Supplements 1 and 2 were added, with the glyphs shown in Sections 4 and 5, respectively.
-### Since the 1994-10-04—Supplement 2—Version
-Morisawa’s RyuminPro-Light (Ryumin Light KL) typeface design is now used for the representative glyphs for each CID—FDPC’s HeiseiMin-W3 (*Heisei Mincho W3*) was previously used. Supplements 3 and 4 were added, with the glyphs shown in Sections 6 and 7, respectively.
-### Since the 2000-03-31—Supplement 4—Version
-KozMinPro-Light (*Kozuka Mincho Pro L*), an Adobe Original typeface design, is now used for the representative glyphs for each CID—RyuminPro-Light was previously used. The representative glyphs for CIDs 13863 and 15438 were corrected, and the representative glyphs of the following CID pairs were exchanged:
-* 7776 & 13982* 7777 & 13983
-### Since the 2000-08-12—Supplement 4—Version
-The representative glyphs for CIDs 15408 and 15435 were corrected.
-### Since the 2000-11-01—Supplement 4—Version
-The representative glyphs are from KozMinPro-Light (*Kozuka Mincho Pro L*) with /CIDFontVersion value 1.011. The representative glyphs for CIDs 740, 8270, 12068, and 13300 were modified, and the representative glyphs for CIDs 7879 and 8002 were corrected.
-### Since the 2002-06-21—Supplement 4—Version
-All 23,058 representative glyphs are from KozMinProVI-Light (*Kozuka Mincho Pro-VI L*) with /CIDFontVersion value 6.004. The representative glyphs for Supplements 5 (CIDs 15444 through 20316) and 6 (CIDs 20317 through 32057) were added as Sections 8 and 9, respectively. The following 24 additional glyphs were added to the Adobe-Japan1-0 kana subset definition in Section 1.1: CIDs 7958–7960, 8009–8014, 8210, 8264–8265, 8268, and 8273–8283. Glyph variation notes for CIDs 140, 144, 9583, and 9587 were removed from Section 1.4. Special notes for CIDs 243 and 245 were added in Section 3.1. Special notes for CIDs 8962 and 8964 were added in Section 6.1. Special notes for CIDs 12220 through 12227 were added in Section 7.1. The representative glyphs for CIDs 243, 245, 8962, and 8964 were modified so that they are centered within their half-width (500-unit) set widths, and the representative glyphs for CIDs 6510, 7803, 7967, 7981, 9437, 12953, 14935, and 15310 were corrected.
-### Since the 2004-06-11—Supplement 6—Version
-The representative glyphs for CIDs 740, 1879, 8270, 12068, and 13300 were corrected. KozMinPr6N-Regular (*Kozuka Mincho Pr6N R*) with /CIDFontVersion value 6.002 was used for the representative glyphs. The entire specification was completely revised.
-### Since the 2008-02-15—Supplement 6—Version
-The representative glyphs for CIDs 7721, 7752, 7780, 7984, 8547, 15825, and 16628 were corrected, and the representative glyphs for CIDs 8721–8949, 12870–12959, 12961–13253, 16469–16778, and 20961–21070 were shifted 47 units to the right. KozMinPr6N-Regular (*Kozuka Mincho Pr6N R*) with /CIDFontVersion value 6.004 was used for the representative glyphs. The entire specification was ported to GitHub markdown syntax and revised.
-## Anticipated Changes
-The following sections detail changes that are anticipated, such as additional mappings for the Unicode CMap resources, and the prospects for Supplement 7.
-### Additional CMap Resource Mappings
-As of this writing, there are no mappings that are scheduled to be added to the Unicode CMap resources for this character collection.
-### Adobe-Japan1-7
-Supplement 7 is expected to include the following glyphs:
-* Three additional glyphs to fully support JIS X 0212-1990 prototypical glyphs.* Additional U-PRESS glyphs that were established shortly after Supplement 6 was published.* Additional glyphs to support the ARIB STD-B24 standard.
-The following table shows the three glyphs for JIS X 0212-1990 kanji that are expected to be included in Supplement 7, along with their related forms that are in Supplement 5. Adobe-Japan2-0 CIDs are also provided for reference.
-**JIS X 0212-1990** | **Adobe-Japan2-0 CID** | **Supplement 5 CID** | **Kanji** | **JIS X 0213:2004** | **Unicode**
---- | --- | --- | --- | --- | ---3443 | 2001 | 17749 | 暀 | 2-1410 | U+66803811 | 2345 | 16923 | 殩 | 1-8639 | U+6BA93868 | 2402 | 16928 | 汴 | 1-8652 | U+6C74
 
-That is all.
+The following sections detail the history of this document, which was originally referred to as Adobe Technical Note #5078. Note that references to specific sections no longer correspond to the sections found in the current version of this specification.
+
+### Since the 1993-06-11—Supplement 0—Version
+
+Supplements 1 and 2 were added, with the glyphs shown in Sections 4 and 5, respectively.
+
+### Since the 1994-10-04—Supplement 2—Version
+
+Morisawa’s RyuminPro-Light (Ryumin Light KL) typeface design is now used for the representative glyphs for each CID—FDPC’s HeiseiMin-W3 (*Heisei Mincho W3*) was previously used. Supplements 3 and 4 were added, with the glyphs shown in Sections 6 and 7, respectively.
+
+### Since the 2000-03-31—Supplement 4—Version
+
+KozMinPro-Light (*Kozuka Mincho Pro L*), an Adobe Original typeface design, is now used for the representative glyphs for each CID—RyuminPro-Light was previously used. The representative glyphs for CIDs 13863 and 15438 were corrected, and the representative glyphs of the following CID pairs were exchanged:
+
+* 7776 & 13982
+* 7777 & 13983
+
+### Since the 2000-08-12—Supplement 4—Version
+
+The representative glyphs for CIDs 15408 and 15435 were corrected.
+
+### Since the 2000-11-01—Supplement 4—Version
+
+The representative glyphs are from KozMinPro-Light (*Kozuka Mincho Pro L*) with /CIDFontVersion value 1.011. The representative glyphs for CIDs 740, 8270, 12068, and 13300 were modified, and the representative glyphs for CIDs 7879 and 8002 were corrected.
+
+### Since the 2002-06-21—Supplement 4—Version
+
+All 23,058 representative glyphs are from KozMinProVI-Light (*Kozuka Mincho Pro-VI L*) with /CIDFontVersion value 6.004. The representative glyphs for Supplements 5 (CIDs 15444 through 20316) and 6 (CIDs 20317 through 32057) were added as Sections 8 and 9, respectively. The following 24 additional glyphs were added to the Adobe-Japan1-0 kana subset definition in Section 1.1: CIDs 7958–7960, 8009–8014, 8210, 8264–8265, 8268, and 8273–8283. Glyph variation notes for CIDs 140, 144, 9583, and 9587 were removed from Section 1.4. Special notes for CIDs 243 and 245 were added in Section 3.1. Special notes for CIDs 8962 and 8964 were added in Section 6.1. Special notes for CIDs 12220 through 12227 were added in Section 7.1. The representative glyphs for CIDs 243, 245, 8962, and 8964 were modified so that they are centered within their half-width (500-unit) set widths, and the representative glyphs for CIDs 6510, 7803, 7967, 7981, 9437, 12953, 14935, and 15310 were corrected.
+
+### Since the 2004-06-11—Supplement 6—Version
+
+The representative glyphs for CIDs 740, 1879, 8270, 12068, and 13300 were corrected. KozMinPr6N-Regular (*Kozuka Mincho Pr6N R*) with /CIDFontVersion value 6.002 was used for the representative glyphs. The entire specification was completely revised.
+
+### Since the 2008-02-15—Supplement 6—Version
+
+The representative glyphs for CIDs 7721, 7752, 7780, 7984, 8547, 15825, and 16628 were corrected, and the representative glyphs for CIDs 8721–8949, 12870–12959, 12961–13253, 16469–16778, and 20961–21070 were shifted 47 units to the right. KozMinPr6N-Regular (*Kozuka Mincho Pr6N R*) with /CIDFontVersion value 6.004 was used for the representative glyphs. The entire specification was ported to GitHub markdown syntax and revised.
+
+### Since the 2017-10-03—Supplement 6—Version
+
+The *Anticipated Changes* section was moved to the project's [Wiki](https://github.com/adobe-type-tools/Adobe-Japan1/wiki) for easier maintenance.
+
+That is all.
