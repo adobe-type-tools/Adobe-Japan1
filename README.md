@@ -14,7 +14,7 @@ Adobe shall not be liable to any party for any loss of revenue or profit or for 
 
 Adobe holds no patents on the subject matter of this specification.
 
-Last updated 2017-10-05
+Last updated 2017-10-08
 
 ---
 ## Introduction
@@ -62,7 +62,7 @@ We further recommend that the glyphs for CIDs 243 and 245—along with their pre
 ---
 ## Supplement 1—Adobe-Japan1-1
 
-Supplement 1 provides 75 additional glyphs, specifically CIDs 8284 through 8358, that are necessary to support JIS X 0208-1990 (aka, JIS90), Apple’s Macintosh KanjiTalk Version 7.1 character set, and JIS90-based vendor character sets set forth by Fujitsu and NEC. Supplement 1 thus includes glyphs for the two so-called JIS90 kanji, specifically JIS X 0208-1990 凜 (84-05; U+51DC) and 熙 (84-06; U+7199). The 平成 (*heisei*) era-name kanji ligature is also among the glyphs that are included.
+Supplement 1 provides 75 additional glyphs, specifically CIDs 8284 through 8358, that are necessary to support JIS X 0208-1990 (aka JIS90), Apple’s Macintosh KanjiTalk Version 7.1 character set, and JIS90-based vendor character sets set forth by Fujitsu and NEC. Supplement 1 thus includes glyphs for the two so-called JIS90 kanji, specifically JIS X 0208-1990 凜 (84-05; U+51DC) and 熙 (84-06; U+7199). The 平成 (*heisei*) era-name kanji ligature is also among the glyphs that are included.
 
 ### Special Notes
 
@@ -114,8 +114,8 @@ In order to ensure glyph consistency across fonts of different manufacturers, th
 Over 2,000 kanji and kanji variants are included, and are ordered and categorized as follows:
 
 * Official traditional kanji forms as specified in the *Jōyō Kanji* (常用漢字) specification, dated 1981-10-01
-* Additional JIS78 (aka, JIS C 6226-1978) kanji forms
-* JIS83 (aka, JIS X 0208-1983) kanji forms
+* Additional JIS78 (aka JIS C 6226-1978) kanji forms
+* JIS83 (aka JIS X 0208-1983) kanji forms
 * Other JIS X 0208:1997 kanji variants
 * IBM Select Kanji variants
 * JIS X 0212-1990 kanji
@@ -127,8 +127,8 @@ Over 2,000 kanji and kanji variants are included, and are ordered and categorize
 The above list of kanji and kanji variants can be misleading, because some glyphs categorized in an earlier glyph classes may be included in a later glyph classes. For example, all JIS X 0212-1990 kanji are in Unicode, and some JIS X 0212-1990 kanji are also K-JIS kanji. These 2,000 or so kanji and kanji variants include support for the following sets of kanji or kanji variants, some of which were partially supported in Supplement 2 and earlier:
 
 * The remaining official traditional forms as specified in the *Jōyō Kanji* (常用漢字) specification, dated 1981-10-01
-* Additional JIS78 (aka, JIS C 6226-1978) kanji forms
-* JIS83 (aka, JIS X 0208-1983) kanji forms
+* Additional JIS78 (aka JIS C 6226-1978) kanji forms
+* JIS83 (aka JIS X 0208-1983) kanji forms
 * Common JIS X 0208:1997 kanji variants
 * IBM Select Kanji variants
 * JIS X 0221-1995 Ideographic Supplement 1­—918 kanji from JIS X 0212-1990
@@ -151,14 +151,14 @@ Note that there are three JIS X 0213:2004 kanji in Supplement 6, specifically CI
 
 ### NLC Glyph Coverage
 
-Supplement 5 includes thirty-eight glyphs that effectively complete the coverage for NLC kanji, which is a set of 1,022 kanji established in 2000. Many NLC kanji are found in JIS X 0208:1997 as-is, or are in Supplement 4. The following is a complete list of the thirty-eight NLC kanji glyphs in Supplement 5, along with their related JIS X 0208:1997 forms in parentheses:
+Supplement 5 includes 38 glyphs that effectively complete the coverage for NLC kanji, which is a set of 1,022 kanji established in 2000. Many NLC kanji are found in JIS X 0208:1997 as-is, or are in Supplement 4. The following is a complete list of the 38 NLC kanji glyphs in Supplement 5, along with their related JIS X 0208:1997 forms in parentheses:
 
 19312 (4570), 19346 (4738), 20175 (5741), 20222 (3505), 20263 (1666), 20264 (5020), 20265 (4036), 20266 (5976), 20267 (5704), 20268 (6662), 20269 (1402), 20270 (1662), 20271 (1243), 20272 (1791), 20273 (1850), 20274 (6481), 20275 (6258), 20276 (1892), 20277 (4368), 20278 (5629), 20279 (1998), 20280 (2171), 20281 (2085), 20282 (2523), 20283 (5707), 20284 (2059), 20285 (5937), 20286 (3086), 20287 (3251), 20288 (3379), 20289 (3538), 20290 (1494), 20291 (3628), 20292 (6325), 20293 (3822), 20294 (3832), 20295 (6537), 20296 (6510)
 
 ---
 ## Supplement 6—Adobe-Japan1-6
 
-Supplement 6 adds 2,741 glyphs, specifically CIDs 20317 through 23057, to completely support the JIS X 0212-1990 character set, and thus obsoletes the Adobe-Japan2-0 character collection, described in [Adobe Technical Note #5097](https://www.adobe.com/devnet/font.html), entitled *Adobe-Japan2-0 Character Collection* for CID-Keyed Fonts. Also included are the glyphs necessary to support Kyodo News’ U-PRESS character set.
+Supplement 6 adds 2,741 glyphs, specifically CIDs 20317 through 23057, to completely support the JIS X 0212-1990 character set, and thus obsoletes the Adobe-Japan2-0 character collection, described in Adobe Technical Note #5097, entitled *Adobe-Japan2-0 Character Collection for CID-Keyed Fonts* (included in this repository as the [*5097.Adobe-Japan2-0.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/5097.Adobe-Japan2-0.pdf) file). Also included are the glyphs necessary to support Kyodo News’ U-PRESS character set.
 
 ### Special Notes
 
@@ -166,7 +166,7 @@ CID+20958 is rendered as a full-width space in this specification, but is alloca
 
 ### JIS C 6226-1978 Coverage
 
-Supplement 6 includes one additional JIS78 (aka, JIS C 6226-1978) glyph, specifically CID+21071 (&#x6EA2;&#xE0102;).
+Supplement 6 includes one additional JIS78 (aka JIS C 6226-1978) glyph, specifically CID+21071 (&#x6EA2;&#xE0102;).
 
 ### JIS X 0213:2004 Coverage
 
@@ -244,7 +244,7 @@ U-PRESS | 20473–20496 | *n/a*
 
 ### Kanji Glyphs
 
-Adobe-Japan1-6 includes 14,664 glyphs that are classified as kanji (aka, ideographs), and their CIDs and CID ranges, separated by Supplement, are shown in the table below:
+Adobe-Japan1-6 includes 14,664 glyphs that are classified as kanji (aka ideographs), and their CIDs and CID ranges, separated by Supplement, are shown in the table below:
 
 **Supplement** | **CIDs & CID Ranges**
 --- | ---
@@ -305,7 +305,7 @@ Note that the registration marks used in the glyph tables are in a separate laye
 
 ### Duplicate Kanji Glyphs
 
-For historical reasons and for JIS90-compliance, the following three Supplement 0 kanji glyph pairs represent genuine duplicate glyphs, and their JIS83 (aka, JIS X 0208-1983) forms in Supplement 4 are shown for the sake of comparison:
+For historical reasons and for JIS90-compliance, the following three Supplement 0 kanji glyph pairs represent genuine duplicate glyphs, and their JIS83 (aka JIS X 0208-1983) forms in Supplement 4 are shown for the sake of comparison:
 
 **Primary Glyph** | **Duplicate Glyph** | **JIS83 Form**
 --- | --- | ---
@@ -380,7 +380,7 @@ This naming convention also allows JIS2004-savvy OpenType fonts to coexist with 
 
 ## Glyph Tables
 
-Representative glyphs for CIDs 0 through 23057 are provided in the [*Adobe-Japan1-6.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1-6.pdf) file that is included in this repository, with 500 glyphs shown per page. And, for reader convenience, the beginning of each Supplement is clearly marked. The typeface used to exemplify each glyph is *Kozuka Mincho Pr6N R* (aka, KozMinPr6N-Regular or 小塚明朝 Pr6N R), designed by Adobe, and an Adobe Original typeface available for license. The specific font instance is Version 6.004, as reflected in its /CIDFontVersion dictionary entry.
+Representative glyphs for CIDs 0 through 23057 are provided in the [*Adobe-Japan1-6.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1-6.pdf) file that is included in this repository, with 500 glyphs shown per page. And, for reader convenience, the beginning of each Supplement is clearly marked. The typeface used to exemplify each glyph is *Kozuka Mincho Pr6N R* (aka KozMinPr6N-Regular or 小塚明朝 Pr6N R), designed by Adobe, and an Adobe Original typeface available for license. The specific font instance is Version 6.004, as reflected in its /CIDFontVersion dictionary entry.
 
 ## Changes Since Earlier Versions
 
@@ -392,7 +392,7 @@ Supplements 1 and 2 were added, with the glyphs shown in Sections 4 and 5, respe
 
 ### Since the 1994-10-04—Supplement 2—Version
 
-Morisawa’s RyuminPro-Light (Ryumin Light KL) typeface design is now used for the representative glyphs for each CID—FDPC’s HeiseiMin-W3 (*Heisei Mincho W3*) was previously used. Supplements 3 and 4 were added, with the glyphs shown in Sections 6 and 7, respectively.
+Morisawa’s RyuminPro-Light (*Ryumin Light KL*) typeface design is now used for the representative glyphs for each CID—FDPC’s HeiseiMin-W3 (*Heisei Mincho W3*) was previously used. Supplements 3 and 4 were added, with the glyphs shown in Sections 6 and 7, respectively.
 
 ### Since the 2000-03-31—Supplement 4—Version
 
@@ -424,5 +424,9 @@ The representative glyphs for CIDs 7721, 7752, 7780, 7984, 8547, 15825, and 1662
 ### Since the 2017-10-03—Supplement 6—Version
 
 The *Anticipated Changes* section was moved to the project's [Wiki](https://github.com/adobe-type-tools/Adobe-Japan1/wiki) for easier maintenance.
+
+### Since the 2017-10-05—Supplement 6—Version
+
+Adobe Tech Note #5097, for the deprecated Adobe-Japan2-0 character collection, was added for historical purposes.
 
 That is all.
