@@ -14,7 +14,7 @@ Adobe shall not be liable to any party for any loss of revenue or profit or for 
 
 Adobe holds no patents on the subject matter of this specification.
 
-Last updated 2017-10-08
+Last updated 2017-10-09
 
 ---
 ## Introduction
@@ -197,8 +197,9 @@ In terms of font products developed by Adobe, three different *Kana* subsets hav
 
 For those developers who wish to include a complete set of proportional Latin glyphs with their kana font products, to make the fonts more usable as stand-alone fonts, we suggest that the glyphs for CIDs 1 through 230 (Supplement 0) and 8720 through 8949 (Supplement 3) be included.
 
+---
 ## Special Glyphs & Other Notes
-The following sections detail special glyphs and other notes that are of interest to font developers. Several glyph classes that are support by Adobe-Japan1-6 are complex, and deserve some amount of explanation and clarification.
+The following sections detail special glyphs and other notes that are of interest to font developers. Several glyph classes are complex, and deserve some amount of explanation and clarification.
 
 ### Space Glyphs
 
@@ -325,6 +326,7 @@ For font developers who wish to build JIS2004-savvy OpenType fonts, specifically
 
 The JIS standards, specifically JIS X 0208:1997, JIS X 0212-1990, and JIS X 0213:2004, and earlier versions thereof, along with JIS-related material found in the appendixes of the book entitled [*CJKV Information Processing*, Second Edition](http://shop.oreilly.com/product/9780596514471.do) (O’Reilly, 2009), serve as the ideal glyph references for Adobe-Japan1-6, at least for the glyphs that correspond to these standards. Some glyphs do not correspond to characters found in any JIS standard, in which case Unicode and ISO 10646 serve as the ideal glyph reference, and in some cases the only glyph reference beyond this document. The [*aj16-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj16-kanji.txt) datafile, described in the section that follows, also provides references to other standards that can also be consulted in terms of glyph references.
 
+---
 ## CMap Resources
 
 The CMap resources associated with the Adobe-Japan1-6 character collection, along with the [*cid2code.txt*](https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-Japan1-6/cid2code.txt) datafile that provides additional details for font developers, are available as part of the [*CMap Resources*](https://github.com/adobe-type-tools/cmap-resources/) open source project.
@@ -335,10 +337,12 @@ More complete descriptions of the individual Adobe-Japan1-6 CMap resources can b
 
 In general, the CMap resources that are based on legacy encodings, such as Shift-JIS, are no longer being updated. Rather, the Unicode CMap resources—available for UTF-8, UTF-16 (UTF-16BE), and UTF-32 (UTF-32BE) encodings, and kept perfectly synchronized—are updated on a regular basis, with new mappings being triggered by a new Supplement or a new version of Unicode. Furthermore, the UCS-2 CMap resources are obsolete and deprecated. Developers should use the UTF-16 CMap resources instead, because they are forward compatible with the now-obsolete UCS-2 ones.
 
+---
 ## Unicode Variation Sequences
 
 The Ideographic Variation Sequences (IVSes) that are specified in the [*Adobe-Japan1_sequences.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1_sequences.txt) datafile are registered by The Unicode Consortium in the [IVD](http://www.unicode.org/ivd/) (*Ideographic Variation Database*) per [UTS #37](http://www.unicode.org/reports/tr37/) (*Unicode Ideographic Variation Database*). This datafile also includes a small number of [Standardized Variation Sequences](http://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt) (SVSes), and all but one of them correspond to CJK Compatibility Ideographs.
 
+---
 ## OpenType Font Development
 
 Given today’s dominance of OpenType fonts, this section provides information intended to help with OpenType font development efforts with regard to those built based on the Adobe-Japan1-6 character collection. Adobe considers the minimum Supplement for an OpenType Japanese font to be 3, specifically Adobe-Japan1-3. The sections that follow provide information on building JIS2004-savvy OpenType fonts, and detail an industry-standard naming convention.
@@ -378,10 +382,12 @@ In order to clearly distinguish OpenType Japanese fonts based on different Suppl
 
 This naming convention also allows JIS2004-savvy OpenType fonts to coexist with earlier versions of the same font, even if they are based on the same Supplement. Also, the advertised Supplement does not affect which designator is used. For example, a JIS2004-savvy Adobe-Japan1-3 font includes 144 additional glyphs from Supplements 4 through 6, but “StdN” shall be used as its designator.
 
+---
 ## Glyph Tables
 
 Representative glyphs for CIDs 0 through 23057 are provided in the [*Adobe-Japan1-6.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1-6.pdf) file that is included in this repository, with 500 glyphs shown per page. And, for reader convenience, the beginning of each Supplement is clearly marked. The typeface used to exemplify each glyph is *Kozuka Mincho Pr6N R* (aka KozMinPr6N-Regular or 小塚明朝 Pr6N R), designed by Adobe, and an Adobe Original typeface available for license. The specific font instance is Version 6.004, as reflected in its /CIDFontVersion dictionary entry.
 
+---
 ## Changes Since Earlier Versions
 
 The following sections detail the history of this document, which was originally referred to as Adobe Technical Note #5078. Note that references to specific sections no longer correspond to the sections found in the current version of this specification.
@@ -428,5 +434,9 @@ The *Anticipated Changes* section was moved to the project's [Wiki](https://gith
 ### Since the 2017-10-05—Supplement 6—Version
 
 Adobe Tech Note #5097, for the deprecated Adobe-Japan2-0 character collection, was added for historical purposes.
+
+### Since the 2017-10-08—Supplement 6—Version
+
+Minor editorial changes.
 
 That is all.
