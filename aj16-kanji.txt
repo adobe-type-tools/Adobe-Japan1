@@ -1,5 +1,5 @@
 # Adobe-Japan1-6 Kanji Datafile
-# Version 2017-10-03
+# Version 2017-10-21
 # Prepared by Dr. Ken Lunde (lunde@adobe.com), Adobe Systems Incorporated
 #
 # The twenty fields are tab-delimited. Multiple values are separated by
@@ -15,7 +15,7 @@
 # 7 = JIS X 0213:2000 -- 3,685
 # 8 = JIS X 0213:2004 -- 3,695
 # 9 = JIS X 0212-1990 -- 5,801
-# 10 = Joyo Kanji (Joyo) & Jinmei-yo Kanji (Jinmei) -- 2,136 + 862
+# 10 = Joyo Kanji (Joyo) & Jinmei-yo Kanji (Jinmei) -- 2,136 + 863
 # 11 = Official Traditional Forms (CID of standard form given) -- 390
 # 12 = NLC Kanji -- 1,022
 # 13 = IBM Select Kanji -- 359
@@ -4361,7 +4361,7 @@
 5455	62-50	62-50	62-50	62-50	62-50	*	*	*	*	*	*	*	*	*	*	*	U+6E19	U+6E19	<U+6E19,U+E0100>
 5456	62-51	62-51	62-51	62-51	62-51	*	*	*	*	*	*	*	*	*	*	*	U+6E72	U+6E72	<U+6E72,U+E0100>
 5457	62-52	62-52	62-52	62-52	62-52	*	*	*	*	*	*	*	*	*	*	*	U+6E5F	U+6E5F	<U+6E5F,U+E0100>
-5458	62-53	62-53	62-53	62-53	62-53	*	*	*	*	*	345	*	*	*	*	*	U+6E3E	U+6E3E	<U+6E3E,U+E0100>
+5458	62-53	62-53	62-53	62-53	62-53	*	*	*	Jinmei	*	345	*	*	*	*	*	U+6E3E	U+6E3E	<U+6E3E,U+E0100>
 5459	62-54	62-54	*	*	*	*	*	*	*	*	*	*	*	*	*	*	U+6E23	U+6E23	<U+6E23,U+E0100>
 5460	62-55	62-55	62-55	62-55	62-55	*	*	*	*	*	*	*	*	*	*	*	U+6E6B	U+6E6B	<U+6E6B,U+E0100>
 5461	62-56	62-56	62-56	62-56	62-56	*	*	*	*	*	*	*	*	*	*	*	U+6E2B	U+6E2B	<U+6E2B,U+E0100>
