@@ -14,7 +14,7 @@ Adobe shall not be liable to any party for any loss of revenue or profit or for 
 
 Adobe holds no patents on the subject matter of this specification.
 
-Last updated 2017-10-09
+Last updated 2017-12-08
 
 ---
 ## Introduction
@@ -340,7 +340,7 @@ In general, the CMap resources that are based on legacy encodings, such as Shift
 ---
 ## Unicode Variation Sequences
 
-The Ideographic Variation Sequences (IVSes) that are specified in the [*Adobe-Japan1_sequences.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1_sequences.txt) datafile are registered by The Unicode Consortium in the [IVD](http://www.unicode.org/ivd/) (*Ideographic Variation Database*) per [UTS #37](http://www.unicode.org/reports/tr37/) (*Unicode Ideographic Variation Database*). This datafile also includes a small number of [Standardized Variation Sequences](http://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt) (SVSes), and all but one of them correspond to CJK Compatibility Ideographs.
+The Ideographic Variation Sequences (IVSes) that are specified in the [*Adobe-Japan1_sequences.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1_sequences.txt) datafile are registered by The Unicode Consortium in the [IVD](http://www.unicode.org/ivd/) (*Ideographic Variation Database*) per [UTS #37](http://www.unicode.org/reports/tr37/) (*Unicode Ideographic Variation Database*). This datafile also includes a small number of [Standardized Variation Sequences](http://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt) (SVSes), and all but two of them correspond to CJK Compatibility Ideographs.
 
 ---
 ## OpenType Font Development
@@ -436,6 +436,10 @@ The *Anticipated Changes* section was moved to the project's [Wiki](https://gith
 Adobe Tech Note #5097, for the deprecated Adobe-Japan2-0 character collection, was added for historical purposes.
 
 ### Since the 2017-10-08—Supplement 6—Version
+
+Minor editorial changes.
+
+### Since the 2017-10-09—Supplement 6—Version
 
 Minor editorial changes.
 
