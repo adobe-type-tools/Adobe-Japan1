@@ -1,6 +1,8 @@
+[English](https://github.com/adobe-type-tools/Adobe-Japan1/) [日本語](README-JP.md)
+
 # The Adobe-Japan1-7 Character Collection
----
-© 1992-2019 Adobe Inc.
+
+© 1992–2019 Adobe Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation file to use, copy, publish, distribute, sublicense, and/or sell copies of the documentation, and to permit others to do the same, provided that:
 
@@ -14,7 +16,7 @@ Adobe shall not be liable to any party for any loss of revenue or profit or for 
 
 Adobe holds no patents on the subject matter of this specification.
 
-Last updated 2019-04-01
+Last updated 2019-06-11
 
 ---
 ## Introduction
@@ -33,11 +35,11 @@ A character collection contains the glyphs that are required to develop font pro
 
 The character collection that results from each Supplement includes the glyphs associated with all earlier Supplements. For example, Supplement 7 includes all glyphs defined in Supplements 0 through 6.
 
-The Adobe-Japan1-7 character collection enumerates 23,060 glyphs, specifically CIDs 0 through 23059, among eight Supplements, designated 0 through 7. Adobe-Japan1-7 completely supports the current JIS (*Japanese Industrial Standard*) character set standards, and earlier vintages thereof, specifically JIS X 0208:1997, JIS X 0213:2004, and JIS X 0212-1990, along with the two-kanji square ligature form of Japan’s new era name that takes effect on 2019-05-01. The following table summarizes these eight Supplements, and also provides the pages on which their glyphs are shown in the [*Adobe-Japan1-7.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1-7.pdf) file:
+The Adobe-Japan1-7 character collection enumerates 23,060 glyphs, specifically CIDs 0 through 23059, among eight Supplements, designated 0 through 7. Adobe-Japan1-7 completely supports the current JIS (*Japanese Industrial Standard*) character set standards, and earlier vintages thereof, specifically JIS X 0208:1997, JIS X 0213:2004, and JIS X 0212-1990, along with the two-kanji square ligature form of Japan’s new era name that took effect on 2019-05-01. The following table summarizes these eight Supplements, and also provides the pages on which their glyphs are shown in the [*Adobe-Japan1-7.pdf*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/Adobe-Japan1-7.pdf) file:
 
 **Supplement** | **Additional CIDs** | **CID Range** | **Total CIDs** | **Date of Establishment** | **Pages**
 --- | --- | --- | --- | --- | ---
-0 | *n/a* | 0–8283 | 8,284 | 1992 | 1–17
+0 | 8,284 | 0–8283 | 8,284 | 1992 | 1–17
 1 | 75 | 8284–8358 | 8,359 | 1993 | 17
 2 | 361 | 8359–8719 | 8,720 | 1993 | 17–18
 3 | 634 | 8720–9353 | 9,354 | 1998-09 | 18–19
@@ -46,7 +48,7 @@ The Adobe-Japan1-7 character collection enumerates 23,060 glyphs, specifically C
 6 | 2,741 | 20317–23057 | 23,058 | 2004-03-05 | 41–47
 7 | 2 | 23058–23059 | 23,060 | 2019-04-01 | 47
 
-Each CID (*Character ID*) in a character collection is associated with a class of character shapes or glyphs. The specific shape of a glyph from a given glyph class is dependent on the typeface style and possibly other factors. Glyphs for all CIDs are illustrated in this document, providing a specific example or instance of the correspondence between a CID and its glyph shape class. Font developers should design glyphs for each CID of the character collection, and may use this document as a reference when proofing or otherwise validating CIDFont resources.
+Each CID (*Character ID*) in a character collection is associated with a glyph in which a set of character shape variations is abstracted. Specific shapes included in the set are dependent on the typeface style and possibly other factors. Glyphs for all CIDs are illustrated in this document, providing a specific example or instance of the correspondence between a CID and its glyph. Font developers should design glyphs for each CID of the character collection, and may use this document as a reference when proofing or otherwise validating CIDFont resources.
 
 The following sections detail the history and contents of each of the eight Supplements of the Adobe-Japan1-7 character collection.
 
@@ -78,7 +80,7 @@ Supplement 2 adds 361 glyphs, specifically CIDs 8359 through 8719, that are used
 ---
 ## Supplement 3—Adobe-Japan1-3
 
-Supplement 3 enumerates 634 additional glyphs, specifically CIDs 8720 through 9353, and was designed to add only pre-rotated versions of all non–full-width Latin and Latin-like glyphs found in Supplement 2 and earlier, for the specific purpose of supporting the OpenType '[vrt2](https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#vrt2)' (*Vertical Alternates and Rotation*) GSUB (*Glyph SUBstitution*) feature.
+Supplement 3 enumerates 634 additional glyphs, specifically CIDs 8720 through 9353, and was designed to add only pre-rotated versions of all non–full-width Latin and Latin-like glyphs found in Supplement 2 and earlier, for the specific purpose of supporting the OpenType '[vrt2](https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-vrt2)' (*Vertical Alternates and Rotation*) GSUB (*Glyph SUBstitution*) feature.
 
 ### Special Notes
 
@@ -147,13 +149,13 @@ Supplement 5 continues the expansion of the “Pro” character collection by ad
 
 JIS X 0213:2000 includes 4,344 characters. Its 2004 revision, designated JIS X 0213:2004, added ten kanji, bringing its total to 4,354 characters. The glyphs for some JIS X 0213:2004 kanji are found in Supplement 4, but the vast majority are in Supplement 5. The following CIDs and CID ranges represent the Supplement 5 glyphs that correspond to JIS X 0213:2004 and variant forms thereof, vertical or otherwise:
 
-15462, 15463, 15472–15479, 15486–15490, 15505–15516, 15600–15607, 15694–15722, 15725–15882, 15912–15975, 15983, 15984, 16068–16070, 16071–16075, 16162–16190, 16193–16282, 16299–16311, 16327, 16329–16349, 16352–16411, 16414–16447, 16450–16466, 16483–16490, 16497–16501, 16516–16685, 16715–19129, 19312, 19346, 20297–20316
+15462–15463, 15472–15479, 15486–15490, 15505–15516, 15600–15607, 15694–15722, 15725–15882, 15912–15975, 15983–15984, 16068–16070, 16071–16075, 16162–16190, 16193–16282, 16299–16311, 16327, 16329–16349, 16352–16411, 16414–16447, 16450–16466, 16483–16490, 16497–16501, 16516–16685, 16715–19129, 19312, 19346, 20297–20316
 
 Note that there are three JIS X 0213:2004 kanji in Supplement 6, specifically CIDs 21072 through 21074.
 
 ### NLC Glyph Coverage
 
-Supplement 5 includes 38 glyphs that effectively complete the coverage for NLC kanji, which is a set of 1,022 kanji established in latre 2000. Many NLC kanji are found in JIS X 0208:1997 as-is, or are included in Supplement 4. The following is a complete list of the 38 NLC kanji glyphs in Supplement 5, along with their related JIS X 0208:1997 forms in parentheses:
+Supplement 5 includes 38 glyphs that effectively complete the coverage for NLC kanji, which is a set of 1,022 kanji established in late 2000. Many NLC kanji are found in JIS X 0208:1997 as-is, or are included in Supplement 4. The following is a complete list of the 38 NLC kanji glyphs in Supplement 5, along with their related JIS X 0208:1997 forms in parentheses:
 
 19312 (4570), 19346 (4738), 20175 (5741), 20222 (3505), 20263 (1666), 20264 (5020), 20265 (4036), 20266 (5976), 20267 (5704), 20268 (6662), 20269 (1402), 20270 (1662), 20271 (1243), 20272 (1791), 20273 (1850), 20274 (6481), 20275 (6258), 20276 (1892), 20277 (4368), 20278 (5629), 20279 (1998), 20280 (2171), 20281 (2085), 20282 (2523), 20283 (5707), 20284 (2059), 20285 (5937), 20286 (3086), 20287 (3251), 20288 (3379), 20289 (3538), 20290 (1494), 20291 (3628), 20292 (6325), 20293 (3822), 20294 (3832), 20295 (6537), 20296 (6510)
 
@@ -189,7 +191,7 @@ With a couple minor exceptions, the glyphs for CIDs 20473 through 20960 are inte
 ---
 ## Supplement 7—Adobe-Japan1-7
 
-Supplement 7 adds exactly two glyphs, specifically CIDs 23058 and 23059, which respectively represent the horizontal and vertical forms of the two-kanji square ligature form of the name of Japan’s new era, 令和 (*reiwa*), which begins on 2019-05-01. This character was added to [Unicode Version 12.1](https://www.unicode.org/versions/Unicode12.1.0/) at code point U+32FF.
+Supplement 7 adds exactly two glyphs, specifically CIDs 23058 and 23059, which respectively represent the horizontal and vertical forms of the two-kanji square ligature form of the name of Japan’s new era, 令和 (*reiwa*), which began on 2019-05-01. This character was added to [Unicode Version 12.1](https://www.unicode.org/versions/Unicode12.1.0/) as U+32FF &#x32FF; SQUARE ERA NAME REIWA.
 
 ---
 ## Kana Subset Definitions
@@ -198,14 +200,15 @@ In terms of font products developed by Adobe, three different *Kana* subsets hav
 
 **Kana Subset** | **Supplement** | **Glyphs** | **CIDs & CID Ranges**
 --- | --- | --- | ---
-*Kamono Kana* Family | 1 | 373 | **0**—0, 232, 233, 238–240, 243, 245–258, 262, 290, 292, 295, 326–331, 503–514, 633–642, 651–655, 659–661, 663, 665, 666, 668, 670–679, 682–693, 695–697, 708, 709, 711–719, 723–739, 780–789, 842–1010, 7612, 7887, 7888, 7891, 7892, 7894, 7895, 7897, 7899–7904, 7907–7939, 7958–7960, 8009–8014, 8210, 8264, 8265, 8268, 8273–8283 & **1**—8307, 8313–8316
-*Kamono Kana* Family | 3 | 415 | **0**—0, 232, 233, 238–240, 243, 245–258, 262, 290, 292, 295, 326–331, 503–514, 633–642, 651–655, 659–661, 663, 665, 666, 668, 670–679, 682–693, 695–697, 708, 709, 711–719, 723–739, 780–789, 842–1010, 7612, 7887, 7888, 7891, 7892, 7894, 7895, 7897, 7899–7904, 7907–7939, 7958–7960, 8009–8014, 8210, 8264, 8265, 8268, 8273–8283 & **1**—8307, 8313–8316 & **2**—*none* & **3**—8951, 8952, 8957–8959, 8962, 8964–8977, 8981, 9009, 9011, 9014, 9048, 9084–9089, 9265–9275
-*Ryo* Family | 1 | 214 | **0**—0, 633–635, 651–654, 657, 658, 660, 842–1010, 7887, 7888, 7891, 7918–7939, 7958–7960, 8264, 8265 & **1**—8313–8316
+*Kamono Kana* Family | 1 | 373 | **0**—0, 232–233, 238–240, 243, 245–258, 262, 290, 292, 295, 326–331, 503–514, 633–642, 651–655, 659–661, 663, 665–666, 668, 670–679, 682–693, 695–697, 708–709, 711–719, 723–739, 780–789, 842–1010, 7612, 7887–7888, 7891–7892, 7894–7895, 7897, 7899–7904, 7907–7939, 7958–7960, 8009–8014, 8210, 8264–8265, 8268, 8273–8283 & **1**—8307, 8313–8316
+*Kamono Kana* Family | 3 | 415 | **0**—0, 232–233, 238–240, 243, 245–258, 262, 290, 292, 295, 326–331, 503–514, 633–642, 651–655, 659–661, 663, 665–666, 668, 670–679, 682–693, 695–697, 708–709, 711–719, 723–739, 780–789, 842–1010, 7612, 7887–7888, 7891–7892, 7894–7895, 7897, 7899–7904, 7907–7939, 7958–7960, 8009–8014, 8210, 8264–8265, 8268, 8273–8283 & **1**—8307, 8313–8316 & **3**—8951–8952, 8957–8959, 8962, 8964–8977, 8981, 9009, 9011, 9014, 9048, 9084–9089, 9265–9275
+*Ryo* Family | 1 | 214 | **0**—0, 633–635, 651–654, 657–658, 660, 842–1010, 7887–7888, 7891, 7918–7939, 7958–7960, 8264–8265 & **1**—8313–8316
 
 For those developers who wish to include a complete set of proportional Latin glyphs with their kana font products, to make the fonts more usable as stand-alone fonts, we suggest that the glyphs for CIDs 1 through 230 (Supplement 0) and 8720 through 8949 (Supplement 3) be included.
 
 ---
 ## Special Glyphs & Other Notes
+
 The following sections detail special glyphs and other notes that are of interest to font developers. Several glyph classes are complex, and deserve some amount of explanation and clarification.
 
 ### Space Glyphs
@@ -228,12 +231,12 @@ The following table lists all of the Adobe-Japan1-7 glyphs that are classified a
 9276 | Full-width | Pre-rotated version of CID+422
 9444 | Proportional | Italic space—U+0020
 12960 | Full-width | Pre-rotated version of CID+9444
-15444 | Full-width | For AAT compatibility—U+F860
+15444 | Full-width | For AAT (*Apple Advanced Typography*) compatibility—U+F860
 15445 | Full-width | For AAT compatibility—U+F861
 15446 | Full-width | For AAT compatibility—U+F862
 15447 | Full-width | For AAT compatibility—U+F87A
 15448 | Full-width | For AAT compatibility—U+F87F
-20958 | Full-width | Placeholder glyph for NTT’s *FreeDial* symbol
+20958 | Full-width | Placeholder glyph for NTT’s *FreeDial* symbol—U+27BF
 
 The space glyphs that are described as a pre-rotated version of another glyph must be assigned full-width advances in terms of their horizontal advances, but when instantiated as an OpenType font, their vertical advances as specified in the OpenType '[vmtx](https://docs.microsoft.com/en-us/typography/opentype/spec/vmtx)' (*Vertical Metrics*) table should match those of their unrotated counterparts.
 
@@ -244,9 +247,9 @@ Adobe-Japan1-7 includes a rich variety of kana in terms of glyph classes, specif
 **Kana Glyph Class** | **Horizontal CIDs & CID Ranges** | **Vertical CIDs & CID Ranges**
 --- | --- | ---
 Half-width | 326, 332–389, 391–421, 515–598 | 9084, 9090–9262
-Full-width | 643, 644, 651–654, 660, 842–1010, 7958–7960, 8313–8316, 12181, 12269, 12271, 16195, 16209–16221, 16236–16252, 16326, 16327 | 7891, 7918–7939, 8264, 8265, 8271, 8272, 12108–12110, 12270, 12272, 16333–16349
+Full-width | 643–644, 651–654, 660, 842–1010, 7958–7960, 8313–8316, 12181, 12269, 12271, 16195, 16209–16221, 16236–16252, 16326, 16327 | 7891, 7918–7939, 8264–8265, 8271–8272, 12108–12110, 12270, 12272, 16333–16349
 Tuned | 12273–12455, 16352–16381 | 12456–12638, 16382–16411
-Proportional | 15449–15452, 15455, 15462, 15463, 15517–15724 | 15976–15979, 15982–16192
+Proportional | 15449–15452, 15455, 15462–15463, 15517–15724 | 15976–15979, 15982–16192
 Ruby | 12649–12652, 12671–12854, 12867, 16414–16449 | 12855–12866, 12868, 16450–16468
 U-PRESS | 20473–20496 | *n/a*
 
@@ -257,19 +260,17 @@ Adobe-Japan1-7 includes 14,664 glyphs that are classified as kanji (aka ideograp
 **Supplement** | **CIDs & CID Ranges**
 --- | ---
 0 | 656, 1125–7477, 7633–7886, 7961–8004, 8266–8267
-1 | 8284, 8285
+1 | 8284–8285
 2 | 8359–8717
-3 | *none*
 4 | 13320–15443
 5 | 16779–20316
 6 | 21071–23057
-7 | *none*
 
 The [*aj17-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj17-kanji.txt) datafile provides detailed information for each of these 14,664 kanji.
 
 ### Ruby Glyphs
 
-Supplements 4 and 5 include glyphs that are suitable for typesetting ruby (aka *furigana*), and the vast majority of the glyphs are for kana, though glyphs for one kanji and some symbols are also included. Although these ruby glyphs are unencoded, they can be used by applications that support the OpenType '[ruby](https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#ruby)' (*Ruby Notation Forms*) GSUB feature. The following table details the CID ranges for the ruby glyphs in Supplements 4 and 5:
+Supplements 4 and 5 include glyphs that are suitable for typesetting ruby (aka *furigana*), and the vast majority of the glyphs are for kana, though glyphs for one kanji and some symbols are also included. Although these ruby glyphs are unencoded, they can be used by applications that support the OpenType '[ruby](https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-ruby)' (*Ruby Notation Forms*) GSUB feature. The following table details the CID ranges for the ruby glyphs in Supplements 4 and 5:
 
 **Supplement** | **CID Ranges**
 --- | ---
@@ -288,11 +289,11 @@ Italic glyphs were introduced in Supplement 4, and additional ones are also foun
 
 ### Pre-Rotated Glyphs
 
-In order to support the OpenType '[vrt2](https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#vrt2)' (*Vertical Alternates and Rotation*) GSUB feature, the Adobe-Japan1-7 character collection includes pre-rotated forms for all Latin and Latin-like glyphs that are not full-width. The table below details how horizontal CIDs and CID ranges map to their corresponding pre-rotated CID ranges:
+In order to support the OpenType '[vrt2](https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-vrt2)' (*Vertical Alternates and Rotation*) GSUB feature, the Adobe-Japan1-7 character collection includes pre-rotated forms for all Latin and Latin-like glyphs that are not full-width. The table below details how horizontal CIDs and CID ranges map to their corresponding pre-rotated CID ranges:
 
 **Supplement** | **Horizontal CIDs & CID Ranges** | **Pre-Rotated CID Ranges**
 --- | --- | ---
-3 | 1–325, 390, 501–503, 599–628, 630–632, 8718, 8719, 326–389, 391–421, 515–598, 423, 424, 504–514, 422, 425–500, 629 | 8720–9353
+3 | 1–325, 390, 501–503, 599–628, 630–632, 8718–8719, 326–389, 391–421, 515–598, 423–424, 504–514, 422, 425–500, 629 | 8720–9353
 4 | 9354–9778, 12063–12087 | 12870–13319
 5 | 15456–15461, 15464–15516, 15725–15975 | 16469–16778
 6 | 20317–20426 | 20961–21070
@@ -301,10 +302,10 @@ In order to support the OpenType '[vrt2](https://docs.microsoft.com/en-us/typogr
 
 The following table provides CIDs and CID ranges that explicitly indicate which glyphs are intended to be designed with proportional-, half-, third-, or quarter-width advances. All other glyphs are expected to have full-width advances.
 
-**Advance** | **CIDs & CID Ranges**
+**Advance** | **CID Ranges**
 --- | ---
 Proportional | 1–230, 9354–9737, 15449–15975, 20317–20426
-Half-width | 231–632, 8718, 8719, 12063–12087
+Half-width | 231–632, 8718–8719, 12063–12087
 Third-width | 9758–9778
 Quarter-width | 9738–9757
 
@@ -332,7 +333,7 @@ In order for fonts based on the Adobe-Japan1-7 character collection to be useful
 
 For font developers who wish to build JIS2004-savvy OpenType/CFF fonts, meaning those whose default glyphs match the representative glyphs set forth in the JIS X 0213:2004 standard, the strong JIS90-compliance recommendation still applies, because the JIS2004-savviness is achieved at the character code, not CID, level, through the use of JIS2004-savvy CMap resources that map the same Unicode code points to CIDs whose glyphs match the JIS X 0213:2004 representative glyphs. JIS2004-savvy font development is covered later in this specification.
 
-The JIS standards, specifically JIS X 0208:1997, JIS X 0212-1990, and JIS X 0213:2004, and earlier versions thereof, along with the JIS-related material found in the appendixes of the book entitled [*CJKV Information Processing*, Second Edition](http://shop.oreilly.com/product/9780596514471.do) (O’Reilly Media, 2009), serve as the ideal glyph references for Adobe-Japan1-7, at least for the glyphs that correspond to these standards. Some glyphs do not correspond to characters found in any JIS standard, in which case [Unicode](https://www.unicode.org/charts/) and ISO/IEC 10646 serve as the ideal glyph reference, and in some cases the only glyph reference beyond this document. The [*aj17-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj17-kanji.txt) datafile, described in the section that follows, also provides references to other standards that can also be consulted in terms of glyph references.
+The JIS standards, specifically JIS X 0208:1997, JIS X 0212-1990, and JIS X 0213:2004, and earlier versions thereof, along with the JIS-related material found in the appendixes of the book entitled [*CJKV Information Processing*, Second Edition](http://shop.oreilly.com/product/9780596514471.do) (O’Reilly Media, 2009), serve as the ideal glyph references for Adobe-Japan1-7, at least for the glyphs that correspond to these standards. Some glyphs do not correspond to characters found in any JIS standard, in which case [Unicode](https://www.unicode.org/charts/) and [ISO/IEC 10646](https://standards.iso.org/ittf/PubliclyAvailableStandards/) serve as the ideal glyph reference, and in some cases the only glyph reference beyond this document. The [*aj17-kanji.txt*](https://github.com/adobe-type-tools/Adobe-Japan1/raw/master/aj17-kanji.txt) datafile, described in the section that follows, also provides references to other standards that can also be consulted in terms of glyph references.
 
 ---
 ## CMap Resources
@@ -357,7 +358,7 @@ Given today’s dominance of OpenType fonts, this section provides information i
 
 All Adobe-Japan1-7 fonts are JIS2004-*compatible*, because all of the representative glyphs shown in the JIS X 0213:2004 standard proper are included, but may not be the default, in terms of whether they are encoded. Whether a glyph is encoded is a function of the CMap resource that is used, and in the case of OpenType/CFF fonts, it is a function of what CMap resource is used to build the Formats 4 and 12 '[cmap](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap)' subtables.
 
-When developing JIS2004-*savvy* OpenType/CFF fonts, specifically those whose default glyphs match the representative glyphs set forth in the JIS X 0213:2004 character set standard, the appropriate UTF-32–encoded CMap resource must be used to build the Formats 4 and 12 'cmap' subtables. For fonts based on Supplements 3 through 5, additional glyphs beyond each Supplement are necessary for JIS2004-compliance, which requires the advertised Supplement to be set to 6. For Supplements 3 through 5, the following table details the number of glyphs that are necessary beyond those in each of these Supplements, and also indicates which JIS2004-savvy CMap resources should be used to build their Formats 4 and 12 'cmap' subtables:
+When developing JIS2004-*savvy* OpenType/CFF fonts, specifically those whose default glyphs match the representative glyphs set forth in the JIS X 0213:2004 character set standard, the appropriate UTF-32–encoded CMap resource must be used to build the Formats 4 and 12 'cmap' subtables. For fonts based on Supplements 3 through 5, additional glyphs beyond each Supplement are necessary, and this requires the advertised Supplement to be set to 6.  For Supplements 3 through 5, the following table details the number of glyphs that are necessary beyond those in each of these Supplements, and also indicates which JIS2004-savvy CMap resources should be used to build their Formats 4 and 12 'cmap' subtables:
 
 **Supplement** | **Advertised Supplement** | **CMap Resource** | **CIDs**
 --- | --- | --- | ---
@@ -369,7 +370,7 @@ The advertised Supplement is the integer value that is recorded in the /Suppleme
 
 **Supplement** | **Glyphs** | **CIDs & CID Ranges**
 --- | --- | ---
-3 | 145 | **4**—9354, 9779, 12101, 12870, 13320–13327, 13330, 13332–13333, 13335–13341, 13343, 13345–13355, 13358–13369, 13371, 13373–13382, 13385–13388, 13391–13400, 13402, 13460, 13495, 13538, 13624, 13650, 13673, 13731, 13803, 13860, 13893, 13915, 13949, 13964, 14013, 14066, 14074, 14111, 14116, 14196, 14272, 14290 & **5**—16977, 17041, 18760, 19312, 19346, 20175, 20222, 20263–20296, 20301–20305, 20307, 20314 & **6**—21072–21074 & **7**—23068
+3 | 145 | **4**—9354, 9779, 12101, 12870, 13320–13327, 13330, 13332–13333, 13335–13341, 13343, 13345–13355, 13358–13369, 13371, 13373–13382, 13385–13388, 13391–13400, 13402, 13460, 13495, 13538, 13624, 13650, 13673, 13731, 13803, 13860, 13893, 13915, 13949, 13964, 14013, 14066, 14074, 14111, 14116, 14196, 14272, 14290 & **5**—16977, 17041, 18760, 19312, 19346, 20175, 20222, 20263–20296, 20301–20305, 20307, 20314 & **6**—21072–21074 & **7**—23058
 4 | 83 | **5**—16413, 16444–16449, 16467–16468, 16889, 16905, 16977, 17014, 17041, 17168, 17205, 18759–18760, 19061, 19312, 19346, 20175, 20222, 20263–20296, 20299–20310, 20312–20315 & **6**—21071–21074, 21558, 21933, 22010, 22920 & **7**—23058–23059
 5 | 12 | **6**—21071–21074, 21371, 21558, 21722, 21933, 22010, 22920 & **7**—23058–23059
 
@@ -381,11 +382,11 @@ In order to clearly distinguish OpenType/CFF Japanese fonts based on different S
 
 **Supplement** | **Designator** | **JIS2004-Savvy Designator** | **/CIDFontName & Menu Name Examples**
 --- | --- | --- | ---
-3 | Std | StdN | KozMinStd-Regular, 小塚明朝 Std R & KozMinStdN-Regular, 小塚明朝 StdN R
-4 | Pro | ProN | KozMinPro-Regular, 小塚明朝 Pro R & KozMinProN-Regular, 小塚明朝 ProN R
-5 | Pr5 | Pr5N | KozMinPr5-Regular, 小塚明朝 Pr5 R & KozMinPr5N-Regular, 小塚明朝 Pr5N R
-6 | Pr6 | Pr6N | KozMinPr6-Regular, 小塚明朝 Pr6 R & KozMinPr6N-Regular, 小塚明朝 Pr6N R
-7 | Pr6 | Pr6N | KozMinPr6-Regular, 小塚明朝 Pr6 R & KozMinPr6N-Regular, 小塚明朝 Pr6N R
+3 | Std | StdN | KozMin**Std**-Regular, 小塚明朝 **Std** R & KozMin**StdN**-Regular, 小塚明朝 **StdN** R
+4 | Pro | ProN | KozMin**Pro**-Regular, 小塚明朝 **Pro** R & KozMin**ProN**-Regular, 小塚明朝 **ProN** R
+5 | Pr5 | Pr5N | KozMin**Pr5**-Regular, 小塚明朝 **Pr5** R & KozMin**Pr5N**-Regular, 小塚明朝 **Pr5N** R
+6 | Pr6 | Pr6N | KozMin**Pr6**-Regular, 小塚明朝 **Pr6** R & KozMin**Pr6N**-Regular, 小塚明朝 **Pr6N** R
+7 | Pr6 | Pr6N | KozMin**Pr6**-Regular, 小塚明朝 **Pr6** R & KozMin**Pr6N**-Regular, 小塚明朝 **Pr6N** R
 
 This naming convention also allows JIS2004-savvy OpenType/CFF fonts to coexist with earlier versions of the same font, even if they are based on the same Supplement. Also, the advertised Supplement does not affect which designator is used. For example, a JIS2004-savvy Adobe-Japan1-3 font includes 145 additional glyphs from Supplements 4 through 7, but “StdN” shall be used as its designator.
 
@@ -457,5 +458,9 @@ Minor editorial changes.
 ### Since the 2017-12-08—Supplement 6—Version
 
 Supplement 7 and its representative glyphs (CIDs 23058 and 23059) were added, and additional editorial changes were made.
+
+### Since the 2019-04-01—Supplement 7—Version
+
+A Japanese translation of the specification was added, along with some minor editorial changes.
 
 That is all.
