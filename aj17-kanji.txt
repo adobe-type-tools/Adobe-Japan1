@@ -1,6 +1,6 @@
 # Adobe-Japan1-7 Kanji Datafile
-# Version 2020-12-04
-# Prepared by Dr Ken Lunde (lunde@unicode.org)
+# Version 2023-01-24
+# Prepared by Dr Ken Lunde (lunde@unicode.org) and Masataka Hattori (mhattori@adobe.com)
 #
 # The 21 fields are tab-delimited. Multiple values are separated by
 # colon. The Base Character and Variation Selector of IVSes are
@@ -22,9 +22,9 @@
 # 14 = K-JIS Kanji -- 370 + 9 outside of Adobe-Japan1-4
 # 15 = "Ext" Kanji -- 8
 # 16 = "Add" Kanji -- 42
-# 17= "JIS78" Kanji -- 256
-# 18 = UniJIS-UTF32-H CMap file (CMapVersion=1.024) -- 15,882 mappings
-# 19 = UniJIS2004-UTF32-H CMap file (CMapVersion=1.019) -- 15,882 mappings
+# 17 = "JIS78" Kanji -- 256
+# 18 = UniJIS-UTF32-H CMap resource (CMapVersion=1.027) -- 15,892 mappings
+# 19 = UniJIS2004-UTF32-H CMap resource (CMapVersion=1.022) -- 15,892 mappings
 # 20 = IVSes & SVSes -- 14,772 (14,683 & 89)
 # 21 = Radical & Strokes -- 14,664
 #
@@ -11518,7 +11518,7 @@
 19127	*	*	*	*	*	2-94-83	2-94-83	77-47	*	*	*	*	*	*	*	*	U+9F6D	U+9F6D	<U+9F6D,U+E0100>	211,15,8
 19128	*	*	*	*	*	2-94-84	2-94-84	77-50	*	*	*	*	*	*	*	*	U+9F70	U+9F70	<U+9F70,U+E0100>	211,15,8
 19129	*	*	*	*	*	2-94-86	2-94-86	*	*	*	*	*	*	*	*	*	U+2A6B2	U+2A6B2	<U+2A6B2,U+E0100>	213,11,4:74,4,11
-19130	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	U+2EAC	U+2EAC	<U+793A,U+E0100>	113,5,0
+19130	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	U+2EAC:U+31350	U+2EAC:U+31350	<U+793A,U+E0100>:<U+31350,U+E0100>	113,5,0
 19131	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	U+3614	U+3614	<U+3614,U+E0100>	30,3,17
 19132	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	U+38AD	U+38AD	<U+38AD,U+E0100>	57,3,4:66,4,3
 19133	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	U+3DCC	U+3DCC	<U+3DCC,U+E0100>	86,4,8
